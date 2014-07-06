@@ -1,0 +1,25 @@
+First download f.lux for Linux from https://justgetflux.com/linux.html
+
+Second extract it on a folder
+
+Third digit these commands on a Terminal window:
+
+$sudo cp [YOUR FOLDER]/xflux /usr/bin/
+$sudo chmod 755 /usr/bin/xflux
+
+Now you can run flux with xflux command.
+But you have to define your zipcode or latitude.
+
+Example :
+
+$xflux -l 42.20, 15.00
+
+Then, to add it on start-up, launch in a terminal window or with ALT+F2:
+
+gnome-session-properties
+
+Add it
+
+Name : Xflux
+Command : xflux -l 42.20, 15.00
+Comment : Xflux configured with [YOUR TOWN] long, lat
