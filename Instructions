@@ -18,7 +18,7 @@ Example :
 Then, to execute it on start-up, create a desktop file in autostart:
 
   $sudo touch ~/.config/autostart/xflux.desktop
-  $sudo gedit ~/.config/autostart/xflux.desktop
+  $sudo nano ~/.config/autostart/xflux.desktop
   
   [Desktop Entry]
   Encoding=UTF-8
