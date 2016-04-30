@@ -3,7 +3,7 @@
 - digit these commands on a Terminal window:
 
   $mv [YOUR FOLDER]/xflux /home/<user>/.local/bin/
-  $sudo chmod 755 /home/<user>/.local/bin/xflux
+  $chmod 755 /home/<user>/.local/bin/xflux
 
 Now you can run flux with xflux command.
 But you have to define your zipcode or latitude.
