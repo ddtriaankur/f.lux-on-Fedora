@@ -24,7 +24,7 @@ Then, to execute it on start-up, create a desktop file in autostart:
   Encoding=UTF-8
   Version=1.0
   Name=xflux
-  Comment=Adapts screen color temperatur according to daytime
+  Comment=Adapts screen color temperature according to daytime
   Exec=/home/<user>/.local/bin/xflux -l <latitude> -g <longitude>
   Terminal=false
   Type=Application
