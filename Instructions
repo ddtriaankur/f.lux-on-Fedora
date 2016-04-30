@@ -2,7 +2,7 @@
 - extract it on a folder
 - digit these commands on a Terminal window:
 
-  $cp [YOUR FOLDER]/xflux /home/<user>/.local/bin/
+  $mv [YOUR FOLDER]/xflux /home/<user>/.local/bin/
   $sudo chmod 755 /home/<user>/.local/bin/xflux
 
 Now you can run flux with xflux command.
